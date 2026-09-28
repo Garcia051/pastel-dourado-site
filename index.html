@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Pastelaria brasileira premium com pastéis crocantes, combos especiais e pedido rápido pelo WhatsApp."
+    />
+    <meta name="theme-color" content="#f7a900" />
+    <title>Pastel Dourado | Pastelaria Brasileira Premium</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <nav class="nav container" aria-label="Navegação principal">
+        <a class="brand" href="#home" aria-label="Pastel Dourado - início">
+          <span class="brand-mark">PD</span>
+          <span class="brand-text">Pastel Dourado</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" data-nav-menu>
+          <a href="#cardapio">Cardápio</a>
+          <a href="#combos">Combos</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+          <a class="nav-cta" href="https://wa.me/5500000000000?text=Ol%C3%A1%21%20Quero%20fazer%20um%20pedido%20na%20Pastel%20Dourado." target="_blank" rel="noopener">Pedir agora</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Pastelaria brasileira artesanal</p>
+            <h1>Pastéis dourados, crocantes e recheados de verdade.</h1>
+            <p class="hero-text">
+              Massa fininha, fritura sequinha, ingredientes frescos e combinações que abraçam o Brasil em cada mordida.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="https://wa.me/5500000000000?text=Ol%C3%A1%21%20Quero%20pedir%20past%C3%A9is%20agora." target="_blank" rel="noopener">Pedir pelo WhatsApp</a>
+              <a class="btn btn-secondary" href="#cardapio">Ver cardápio</a>
+            </div>
+            <div class="hero-stats" aria-label="Destaques da pastelaria">
+              <span><strong>4.9</strong> avaliação</span>
+              <span><strong>15min</strong> retirada</span>
+              <span><strong>+20</strong> sabores</span>
+            </div>
+          </div>
+
+          <div class="hero-card reveal delay-1" aria-label="Pastel especial da casa">
+            <div class="plate">
+              <div class="pastel-shape"></div>
+              <div class="steam steam-1"></div>
+              <div class="steam steam-2"></div>
+              <div class="steam steam-3"></div>
+            </div>
+            <div class="special-badge">
+              <span>Especial do dia</span>
+              <strong>Carne seca com catupiry</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section features">
+        <div class="container feature-grid">
+          <article class="feature-card reveal">
+            <span class="icon">🥟</span>
+            <h3>Massa artesanal</h3>
+            <p>Preparada todos os dias para garantir crocância e sabor irresistíveis.</p>
+          </article>
+          <article class="feature-card reveal delay-1">
+            <span class="icon">🔥</span>
+            <h3>Fritura sequinha</h3>
+            <p>Temperatura controlada para um pastel dourado, leve e nada encharcado.</p>
+          </article>
+          <article class="feature-card reveal delay-2">
+            <span class="icon">🥤</span>
+            <h3>Combos completos</h3>
+            <p>Pastel, caldo de cana e acompanhamentos para matar a fome com estilo.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section menu" id="cardapio">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Cardápio</p>
+            <h2>Sabores queridinhos da casa</h2>
+            <p>Escolha seu pastel favorito e personalize com borda extra crocante.</p>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-card reveal">
+              <div class="menu-image cheese"></div>
+              <div class="menu-content">
+                <span class="tag">Clássico</span>
+                <h3>Queijo Meia Cura</h3>
+                <p>Queijo derretido, orégano fresco e massa dourada.</p>
+                <div class="price-row"><strong>R$ 12,90</strong><button data-order="Pastel de Queijo Meia Cura">Pedir</button></div>
+              </div>
+            </article>
+
+            <article class="menu-card reveal delay-1">
+              <div class="menu-image beef"></div>
+              <div class="menu-content">
+                <span class="tag">Mais pedido</span>
+                <h3>Carne Temperada</h3>
+                <p>Carne moída refogada, azeitona, ovo e tempero de feira.</p>
+                <div class="price-row"><strong>R$ 14,90</strong><button data-order="Pastel de Carne Temperada">Pedir</button></div>
+              </div>
+            </article>
+
+            <article class="menu-card reveal delay-2">
+              <div class="menu-image chicken"></div>
+              <div class="menu-content">
+                <span class="tag">Cremoso</span>
+                <h3>Frango com Catupiry</h3>
+                <p>Frango desfiado suculento com catupiry cremoso.</p>
+                <div class="price-row"><strong>R$ 15,90</strong><button data-order="Pastel de Frango com Catupiry">Pedir</button></div>
+              </div>
+            </article>
+
+            <article class="menu-card reveal">
+              <div class="menu-image shrimp"></div>
+              <div class="menu-content">
+                <span class="tag">Premium</span>
+                <h3>Camarão Cremoso</h3>
+                <p>Camarão selecionado, requeijão e toque de cheiro-verde.</p>
+                <div class="price-row"><strong>R$ 22,90</strong><button data-order="Pastel de Camarão Cremoso">Pedir</button></div>
+              </div>
+            </article>
+
+            <article class="menu-card reveal delay-1">
+              <div class="menu-image vegan"></div>
+              <div class="menu-content">
+                <span class="tag">Veggie</span>
+                <h3>Palmito Especial</h3>
+                <p>Palmito, tomate, milho e molho branco artesanal.</p>
+                <div class="price-row"><strong>R$ 16,90</strong><button data-order="Pastel de Palmito Especial">Pedir</button></div>
+              </div>
+            </article>
+
+            <article class="menu-card reveal delay-2">
+              <div class="menu-image sweet"></div>
+              <div class="menu-content">
+                <span class="tag">Doce</span>
+                <h3>Banana com Canela</h3>
+                <p>Banana caramelizada, canela e açúcar finalizado na hora.</p>
+                <div class="price-row"><strong>R$ 13,90</strong><button data-order="Pastel doce de Banana com Canela">Pedir</button></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section combos" id="combos">
+        <div class="container combos-grid">
+          <div class="section-heading align-left reveal">
+            <p class="eyebrow">Combos</p>
+            <h2>Feitos para dividir, ou não.</h2>
+            <p>Opções completas para almoço rápido, lanche da tarde ou encontro com amigos.</p>
+          </div>
+
+          <div class="combo-list">
+            <article class="combo-card reveal delay-1">
+              <div>
+                <span>Combo Feira</span>
+                <h3>2 pastéis + caldo de cana 500ml</h3>
+              </div>
+              <strong>R$ 34,90</strong>
+            </article>
+            <article class="combo-card reveal delay-2 featured">
+              <div>
+                <span>Família Dourada</span>
+                <h3>6 pastéis + 2 bebidas + molhos da casa</h3>
+              </div>
+              <strong>R$ 89,90</strong>
+            </article>
+            <article class="combo-card reveal delay-3">
+              <div>
+                <span>Doce & Salgado</span>
+                <h3>1 pastel salgado + 1 pastel doce + suco natural</h3>
+              </div>
+              <strong>R$ 31,90</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section story" id="sobre">
+        <div class="container story-grid">
+          <div class="story-visual reveal" aria-hidden="true">
+            <span>Desde 1998</span>
+          </div>
+          <div class="story-copy reveal delay-1">
+            <p class="eyebrow">Nossa história</p>
+            <h2>O sabor da feira com acabamento premium.</h2>
+            <p>
+              A Pastel Dourado nasceu para valorizar o pastel brasileiro: simples, generoso e cheio de memória afetiva. Hoje unimos técnica, ingredientes selecionados e atendimento ágil para entregar uma experiência marcante do primeiro aroma à última mordida.
+            </p>
+            <ul class="check-list">
+              <li>Ingredientes frescos de fornecedores locais</li>
+              <li>Molhos artesanais da casa</li>
+              <li>Retirada rápida e pedidos por WhatsApp</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta" id="contato">
+        <div class="container cta-card reveal">
+          <div>
+            <p class="eyebrow">Bateu fome?</p>
+            <h2>Peça agora e receba seu pastel quentinho.</h2>
+            <p>Troque o número no link do WhatsApp pelo telefone da sua pastelaria antes de publicar.</p>
+          </div>
+          <a class="btn btn-primary" href="https://wa.me/5500000000000?text=Ol%C3%A1%21%20Quero%20conhecer%20o%20card%C3%A1pio%20da%20Pastel%20Dourado." target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="#home">
+            <span class="brand-mark">PD</span>
+            <span class="brand-text">Pastel Dourado</span>
+          </a>
+          <p>Pastelaria brasileira premium, feita para encantar no balcão e no delivery.</p>
+        </div>
+        <div>
+          <strong>Horário</strong>
+          <p>Terça a domingo<br />11h às 22h</p>
+        </div>
+        <div>
+          <strong>Endereço</strong>
+          <p>Rua da Feira, 123<br />Centro - Sua Cidade</p>
+        </div>
+      </div>
+      <p class="copyright">© <span data-year></span> Pastel Dourado. Todos os direitos reservados.</p>
+    </footer>
+
+    <a class="floating-whatsapp" href="https://wa.me/5500000000000?text=Ol%C3%A1%21%20Quero%20fazer%20um%20pedido." target="_blank" rel="noopener" aria-label="Pedir pelo WhatsApp">☎</a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
